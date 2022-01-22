@@ -1,0 +1,23 @@
+﻿html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#notes-list {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}

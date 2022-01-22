@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Index Page</title>
+    <link type="text/css" href="/static/css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="app">
+        <h2>Notes App</h2>
+        <form method="post" action="/notes">
+            <input type="text" name="note" placeholder="Input note here" />
+            <button>Submit</button>
+        </form>
+        <ul id="notes-list">
+        </ul>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
